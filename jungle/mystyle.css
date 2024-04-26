@@ -1,0 +1,1263 @@
+:root{
+    --green: #28a745;
+ }
+ * {
+     margin: 0;
+     box-sizing: border-box;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+ }
+ body a{
+     text-decoration: none;
+ }
+ h1, h2, h3, h4, h5, p{
+     text-align: center;
+     font-family: 'Playfair Display', serif;
+     
+ }
+ /* CSS FOR TOP HEAD SECTION  */
+ .header{
+     background: url(./media/b2.jpg);
+     width: 100%;
+     height: 800px;
+     
+ }
+ /* .box .rightbox{
+    display: none;
+ }
+ .box .rightbox:target{
+    display: block;
+ } */
+ .container{
+     width: 90%;
+     position: relative;
+     left: 5%;
+     color: aliceblue;
+ }
+ .header .container .content .navtop{
+     display: flex;
+     justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+ }
+ .header .container .leftbox{
+     width: 10%;
+ }
+ .header .container .rightbox{
+     width: 40%; 
+ }
+ .header .container .leftbox h1{
+     color: white;
+     font-size: 31px;
+     padding-top: 6px;
+ }
+ .header .container .rightbox ul{
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+ 
+ }
+ .header .container .rightbox ul li:first-child a{
+     color: #28a745;
+     
+     
+ }
+ .header .container .rightbox ul li a{
+     font-size: 15px;
+     color: white;
+     font-weight: 500;
+     padding: 7px 6px 0px;
+     letter-spacing: 1px;
+ }
+ .header .container .rightbox ul li a:hover{
+     color: #28a745;
+ }
+ .header .container .textcontent{
+     margin-top: 250px;
+     text-align: center;
+ }
+ .header .container .textcontent h4{
+     font-size: 30px;
+     color: white;
+     letter-spacing: 2px;
+     font-family: 'Playfair Display', serif;
+ }
+ .header .container .textcontent h3{
+     font-size: 30px;
+     color: white;
+     letter-spacing: 2px;
+     margin: 10px 0px;
+     font-family: 'Playfair Display', serif;
+ }
+ .header .container .textcontent p{
+     margin: 10px 150px 35px 150px;
+     font-size: 15px;
+     text-shadow: 2px 2px 8px #000;
+     line-height: 27px;
+     letter-spacing: 0px;
+     padding: 0em 9em;
+ }
+ .header .container .textcontent .buttonbox button{
+     
+     padding: 10px 20px;
+     margin: 0px 10px;
+     border-radius: 20px;   
+     border: 2px solid #d1c5c5;
+     font-size: 15px;
+     align-items: center;
+     letter-spacing: 3px;
+ }
+ .header .container .textcontent .buttonbox .leftbutton{
+     background: white;
+     color: #a3c962;
+ }
+ .header .container .textcontent .buttonbox .rightbutton{
+     background: #a3c962;
+     color: #ffffff;
+ }
+ .header .container .textcontent .buttonbox button:hover{
+     background: #0c0c0c;
+     color: #d1c5c5;
+ }
+ 
+ /* END OF HEAD SECTION HERE  */
+ /* CSS FOR THE ABOUT  */
+ /* .about{
+     background: red;
+ } */
+ .about .container .join h2{
+     margin-top: 80px;
+     color: #28a745;
+     font-size: 20px;
+ }
+ .about .container .join h1{
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-family: 'Playfair Display', serif;
+     line-height: 40px;
+     color: #000;
+ }
+ .about .container .join p{
+    margin-top: 30px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #635e5e;
+ }
+ .about .container .about-us{
+     margin: 80px 100px 20px 100px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .about .container .imgabout{
+     width: 400px;
+     height: 450px;
+     
+     margin: 0px 20px 40px 100px;
+ }
+ .about-us .discrip{
+     padding-left: 60px;
+     margin-right: 100px;
+ }
+ .about-us .discrip h5{
+     color: #28a745;
+     font-size: 20px;
+     text-align: left;
+ }
+ .about-us .discrip h4{
+     line-height: 30px;
+     font-size: 25px;
+     text-align: left;
+     margin-top: 15px;
+     letter-spacing: 1px;
+     font-family: 'Playfair Display', serif;
+     color: #000;
+     
+ }
+ .about-us .discrip p{
+    margin-top: -10px;
+     text-align: left;
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+     color: #6e6b6b;
+    
+ }
+ .about-us .discrip .progress{
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     
+ }
+ .about-us .discrip .progress .box{
+     width: 150px;
+     height: 150px;
+     border: 3px solid #049dff;
+     border-top-color: #ffffff;
+     padding: 20px;
+   
+     border-radius: 100%;
+     
+     transform-origin: center center;
+     transform: rotate(30deg);
+     
+ }
+ .about-us .discrip .progress .box:nth-child(1){
+    transform: rotate(0deg);
+    
+     
+ }
+ .about-us .discrip .progress .box:nth-child(2){
+     transform: rotate(0deg);
+     border-left:3px solid #ffffff;
+     
+      
+  }
+  .about-us .discrip .progress .box:nth-child(3){
+     transform: rotate(0deg);
+     border: 3px solid orangered;
+     border-top: 3px solid white;
+ 
+      
+  }
+ .about-us .discrip .progress .box .inside{
+     width: 122px;
+     height: 122px;
+     border-radius: 100%;
+     border: 2px solid #d1cbd0;
+     position: absolute;
+     top: 12px;
+     right: 12px;
+ }
+ .about-us .discrip .progress .box .inside h1{
+     position: absolute;
+     top: 45px;
+     left: 45px;
+     color: #049dff;
+ }
+ 
+ .about-us .discrip .progresname{
+     display: flex;
+     justify-content: space-between;
+  
+ }
+ 
+ .about-us .discrip .progresname h4{
+     font-size: 20px;
+     color: #000;
+     margin: 5px 0 0 20px;
+     letter-spacing: 1px;
+     font-family: 'Playfair Display', serif;
+     width: 100%;
+ }
+ 
+ .about-us .discrip .progresname h4:nth-child(2){
+    transform: translateX(25px);
+ }
+ .about-us .discrip .progresname h4:nth-child(3){
+     transform: translateX(20px);
+ }
+ /* END OF CSSS FOR THE PROGRESS BAR  */
+ 
+ /* CSS FOR OUR SECTION HERE  */
+ #service{
+     background: url(./media/s1.jpg);
+     height: 800px;
+ }
+ #service .container{
+     padding-top: 70px;
+ }
+ #service .row{
+     display: flex;
+ 
+ 
+ }
+ #service .row .box{
+     width: 45%;
+ }
+ #service .row p{
+     font-size: 15px;
+     color: #d8d8d8;
+     letter-spacing: 1px;
+     margin: 10px 15px 0px 150px;
+     line-height: 28px;
+     text-align: right;
+     font-family: 'Open Sans', sans-serif;
+ }
+ #service .row .box h6 {
+     font-size: 21px;
+     color: #a3c962;
+     font-weight: 600;
+     margin-left: 10px;
+    
+ }
+ 
+ #service .row .box h3 {
+     font-size: 38px;
+     color: #fff;
+     letter-spacing: 2px;
+     font-weight: 400;
+     text-align: left;
+     margin: 9px 0 0 10px;
+ }
+ 
+ #service .row1{
+     margin: 70px 150px 0 150px;
+     display: grid;
+    
+     gap: 20px 30px;
+     grid-template-columns: repeat(3,1fr);
+     /* flex-wrap: wrap; */
+     /* background: white; */
+ }
+ #service .row1 .box{
+     width: 100%;
+     height: 200px;
+     border: 2px solid red;
+     padding: 10%;
+     /* justify-content: space-between; */
+     justify-content: center;
+     align-items: center;
+     background: rgb(255, 255, 255);
+     padding: 2em 1.5em;
+     box-shadow: -1px 0px 1px black;
+     margin: 10px;
+     display: grid ;
+     color: black;
+     text-align: center;
+
+     
+ 
+ }
+  #service .row1 .box h3{
+    color: #a3c962;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+
+    
+
+
+ }
+ #service .row1 .box p{
+    padding: 20px 0px 15px 0px;
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 20px;
+    initial-letter: 2px;
+    letter-spacing: 2px;
+
+
+ }
+ #service .row1 .box .bx , ion-icon{
+    font-size: 50px;
+    
+ }
+ /* CSS FOR GALARY SECTION HERE  */
+ /*  */
+ /*  */
+ /*  */
+ #Gallery{
+   height: 200vh;
+ }
+ #Gallery .container{
+    padding-top: 70px;
+ }
+ #Gallery .row{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+    /* color: #28a745; */
+    
+    
+ }
+ #Gallery .row .box{
+    width: 45%;
+    
+ } 
+ 
+ #Gallery .row p{
+    font-size: 15px;
+color: black;
+letter-spacing: 1px;
+margin: 10px 150px 0px --80px;
+line-height: 28px;
+text-align: left;
+font-family: 'open Sans', sans-serif;
+
+
+}
+#Gallery .row .box p{
+    transform: translateX(-90px);
+ }
+#Gallery .row .box h5{
+    font-size: 21px;
+    color:#a3c962;
+    /* letter-spacing: 1px; */
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+
+     
+
+}
+#Gallery .row .box h4{
+    font-size: 38px;
+     color:black;
+     letter-spacing: 2px;
+     font-weight: 400;
+     text-align: right;
+     /* margin: 9px 0 0 10px; */
+
+}
+#Gallery .row2{
+    display: flex;
+    margin: 70px 159px 0 150px;
+}
+#Gallery .row2 .col{
+    display: grid;
+    gap: 20px 30px;
+    grid-template-columns: repeat(2,1fr);
+}
+#Gallery .row2 .box{
+    object-fit: cover;
+    overflow: hidden;
+}
+#Gallery .row2 .img1{
+    
+    grid-column: 1/3;
+    
+}
+#Gallery .row2 .img9{
+   
+    grid-column: 1/3;
+}
+#Gallery .row2 .img8{
+    grid-column: 1/3;
+}
+#count{
+    height: 30vh;
+    background: #a3c962;
+}
+#count .container{
+    height: 100%;
+}
+#count .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#count .row .col ion-icon, #count .row .col i{
+    font-size: 24px;
+    transform: translateX(16px);
+    margin-bottom: 10px;
+}
+#count .row .col span{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+#count .row .col h3{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+#Features{
+    height: 800px;
+}
+#Features .container{
+    padding-top: 70px;
+}
+#Features .row{
+    display: flex;
+    margin-left: 60px;
+}
+#Features .row .box{
+    width: 45%;
+}
+#Features .row p{
+    font-size: 15px;
+     color: black;
+     letter-spacing: 1px;
+     margin: 10px 15px 0px 150px;
+     line-height: 28px;
+     text-align: right;
+     font-family: 'Open Sans', sans-serif;
+}
+#Features .row h5{
+    font-size: 21px;
+     color: #a3c962;
+     font-weight: 600;
+     margin-left: 10px;
+     transform: translateX(-190px);
+}
+#Features .row h3{
+    font-size: 38px;
+     color: #000;
+     letter-spacing: 2px;
+     font-weight: 400;
+     text-align: left;
+     margin: 9px 0 0 10px;
+     transform: translateX(20px);
+
+}
+#Features .row1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#Features .row1 .col{
+    margin-top: 20px;
+}
+#Features .col col2{
+    width: 670px;
+    height: 463.2px;
+}
+#Features .row1 .col2 .col333{
+    width: 600px;
+    height: 140px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    margin: 20px 0px 0px 40px;
+    box-shadow: -3px 7px 39px -5px rgb(0,0,0,);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Features .row1 .col2 .col333 .text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #a3c962;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#Features .row1 .col2 .col333 .text p{
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 29px;
+    letter-spacing: 1px;
+    font-family:'open Sans', sans-serif ;
+    text-align: left;
+    padding-right: 10px;
+   
+}
+#Features .row1 .col2 .middlebox{
+    width: 570px;
+    transform: translateX(30px);
+}
+/* features section is end here  */
+/* price and plan section is start from here  */
+
+
+#price{
+    /* height: 200vh; */
+    background: url(./media/b2.jpg) no-repeat center;
+    height: 656px;
+    background-size: cover;
+ }
+ #price .container{
+    padding-top: 70px;
+}
+#price .row{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+#price .row .box{
+    width: 45%;
+}
+#price .row p{
+    font-size: 15px;
+    color: #d8d8d8;
+    letter-spacing: 1px;
+    margin: 10px 150px 0px -80px;
+    line-height: 28px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+#price .row .boxx1{
+    transform: translateX(20px);
+}
+#price .row .box h6 {
+    font-size: 21px;
+    color: #a1cb57;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+#price .row .box h3 {
+    font-size: 38px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+#price .container .row2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px 0px 100px;
+}
+#price .row2 .col { 
+    flex: 0 0 25%;
+    max-width: 25%;
+
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#price .row2 .box {
+    background: #fff;
+    padding: 1.5em 2.5em 1.5em 1.5em;
+    box-shadow: 0 0 8px 0 rgba(161, 161, 161, 0.5);
+    text-align: center;
+}
+
+#price .row2 .txt h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #a3c962;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+#price .row2 .price h4{
+    color: #565656;
+}
+#price .row2 .sup {
+    font-size: 16px;
+    color: #565656;
+}
+#price .row2 .number-price {
+    font-size: 32px;
+    color: #a3c962;
+    font-weight: 600;
+}
+#price .row2 .price-list-txt ul{
+    list-style: none;
+    padding-top: 20px;
+}
+#price .row2 .price-list-txt ul li {
+    font-size: 13px;
+    color: #969696;
+    padding-top: 12px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+}
+#price .row2 a{
+    background-color: #a3c962;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    margin: 20px 0px 20px 30px;
+}
+
+/* END OF CSS FOR PLAN AND PRICE SECTION HERE  */
+
+/* OUR CLIENT SECTION CSS START HERE  */
+
+#client{
+    height: 660px;
+}
+#client .container{
+    padding-top: 70px;
+}
+#client .row{
+    display: flex;
+    margin-left: 60px;
+}
+#client .row .box{
+    width: 45%;
+}
+#client .row p{
+    font-size: 15px;
+     color: black;
+     letter-spacing: 1px;
+     margin: 10px 15px 0px 150px;
+     line-height: 28px;
+     text-align: right;
+     font-family: 'Open Sans', sans-serif;
+}
+#client .row h4{
+    font-size: 21px;
+     color: #a3c962;
+     font-weight: 600;
+     margin-left: 10px;
+     transform: translateX(-190px);
+}
+#client .row h2{
+    font-size: 38px;
+     color: #000;
+     letter-spacing: 2px;
+     font-weight: 400;
+     text-align: left;
+     margin: 9px 0 0 10px;
+     transform: translateX(20px);
+
+}
+#client .row2{
+    display: flex;
+    justify-content: center;
+}
+#client .row2 .col{
+    width: 380px;
+    height: 372px;
+    background: white;
+    margin: 90px 10px 30px 50px;
+}
+#client .row2 .col .text h4{
+    color:#a3c962 ;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+#client .row2 .col .text h6{
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#client .row2 .col p{
+    color: #000;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+#client .row2 .col img{
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+/* OUR CLIENT SECTION CSS END HERE  */
+
+
+#video{
+    background: #a3c962;
+    height: 325px;
+}
+#video .container{
+    height: 100%;
+}
+#video .container .row{
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+#video .container .row a{
+    padding: 9px 12px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    color: #000000;
+    outline: none;
+}
+#video .container .row a ion-icon{
+    margin-top: 4px;
+}
+#video .container .row h4{
+    font-size: 32px;
+    margin: 35px 0px 10px 0px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+
+}
+#video .container .row p{
+    font-size: 16px;
+color: #4c4c4c;
+line-height: 28px;
+letter-spacing: 1px;
+font-family: 'Open Sans', sans-serif;
+}
+/* video section is end here  */
+
+
+/* volunteer section is start from here  */
+
+#volunteer{
+    
+    height: 750px;
+}
+#volunteer .container{
+    padding-top: 70px;
+}
+#volunteer .row{
+    display: flex;
+    margin-left: 60px;
+}
+#volunteer .row .box{
+    width: 45%;
+}
+#volunteer .row p{
+    font-size: 15px;
+    color: #676662;
+    letter-spacing: 1px;
+    margin: 10px 15px 0px 90px;
+    line-height: 28px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+#volunteer .row .box h6 {
+    font-size: 21px;
+    color: #a3c962;
+    font-weight: 600;
+    margin-left: 10px;
+   
+}
+
+#volunteer .row .box h3 {
+    font-size: 38px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: left;
+    margin: 9px 0 0 10px;
+}
+#volunteer .row2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+} 
+#volunteer .row2 .col{
+  
+    width: 280px;
+    height: 461.4px;
+    margin: 50px 15px 0px 15px;
+    
+}
+#volunteer .row2 .col img{
+    width: 100%;
+    vertical-align: middle;
+}
+#volunteer .row2 .col h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #a3c962;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 15px;
+ }
+ #volunteer .row2 .col p{
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+
+  }
+  #volunteer .row2 .col .icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+  }
+  #volunteer .row2 .col .icon i{
+    margin-right: 1em;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 37px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+  }
+/* OUR VOLUNTEER CSS END HERE  */
+/* our blog section is start from here  */
+
+/* OUR BLOG SECTION CSS STARTED HERE  */
+
+#blog{
+    /* height: 200vh; */
+    background: url(./media/b1.jpg) no-repeat center;
+    height: 756px;
+    background-size: cover;
+ }
+ #blog .container{
+    padding-top: 70px;
+}
+#blog .row{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+#blog .row .box{
+    width: 45%;
+}
+#blog .row p{
+    font-size: 15px;
+    color: #d8d8d8;
+    letter-spacing: 1px;
+    margin: 10px 150px 0px -80px;
+    line-height: 28px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+#blog .row .boxx1{
+    transform: translateX(20px);
+}
+#blog .row .box h6 {
+    font-size: 21px;
+    color: #a1cb57;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+#blog .row .box h3 {
+    font-size: 38px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+   
+}
+#blog .row2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog .row2 .col{
+    width: 350px;
+    height: 484px;
+    background: #fff;
+    margin: 10px 15px 0px 15px;
+    padding: 20px 0px 0px 20px;
+    
+    
+}
+#blog .row2 .col .img{
+    width: 310px;
+    height: 232px;
+    
+    
+    
+   
+}
+#blog .row2 .col .img img{
+    width: 100%;
+    vertical-align: middle;
+    
+}
+#blog .row2 .col .text h6{
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+ }
+ #blog .row2 .col .text h4{
+    text-align: left;
+ }
+ #blog .row2 .col .text h4 a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #a3c962;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+    
+  }
+  #blog .row2 .col .text p{
+    font-size: 15px;
+    color: #4c4c4c;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+   }
+   #blog .row2 .col .tag{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+   }
+   #blog .row2 .col .tag a{
+    text-decoration: none;
+    color: #000;
+   }
+   #blog .row2 .col .tag a:nth-child(2){
+    margin-right: 15px;
+   }
+
+/* OUR BLOG SECTION CSS END HERE  */
+
+/* CONTACT US SECTION CSS STARTED HERE  */
+   
+#contact{
+    
+    height: 650px;
+}
+#contact .container{
+    padding-top: 70px;
+}
+#contact .row{
+    display: flex;
+    margin-left: 100px;
+}
+#contact .row .box{
+    width: 45%;
+}
+#contact .row p{
+    font-size: 15px;
+    color: #676662;
+    letter-spacing: 1px;
+    margin: 10px 15px 0px 90px;
+    line-height: 28px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+#contact .row .box h6 {
+    font-size: 21px;
+    color: #a3c962;
+    font-weight: 600;
+    margin-left: 10px;
+   
+}
+
+#contact .row .box h3 {
+    font-size: 38px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: left;
+    margin: 9px 0 0 10px;
+}
+#contact .row2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 50px 50px 0px 50px;
+}
+#contact .row2 .col{
+    width: 570px;
+    height: 384.3px;
+   
+    margin: 0px 10px;
+}
+#contact .row2 .col .formbox{
+    width: 100%;
+
+}
+#contact .row2 .col .formbox input, #contact .row2 .col .formbox textarea, #contact .row2 .col button{
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 10px 0px 10px 0px;
+    padding: .9em .7em;
+    background: #efefef;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px 0px black;
+}
+#contact .row2 .col .formbox input:focus{
+    border: 3px solid rgb(174, 252, 252);
+    box-shadow: none;
+    transition: 0.5s all;
+}
+#contact .row2 .col .formbox textarea:focus{
+    border: 3px solid rgb(174, 252, 252);
+    box-shadow: none;
+    transition: 0.5s all;
+}
+#contact .row2 .col button{
+    background-color: #a3c962;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: none;
+}
+#contact .row2 .col button:hover{
+    background: #0c0c0c;
+    color: #ffffff;
+    border: #ffffff;
+}
+#contact .row2 .col .box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 70px;
+   
+}
+#contact .row2 .col .box2{
+    transform: translateX(-55px);
+}
+#contact .row2 .col2 .box3{
+    margin-top: 20px;
+}
+#contact .row2 .col .box .icon i{
+    font-size: 40px;
+    color: #000000;
+    line-height: 97px;
+    margin-right: 70px;
+    text-align: center;
+}
+#contact .row2 .col .box .text h6{
+    font-size: 22px;
+    font-weight: 700;
+    color: #a3c962;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    line-height: 50px;
+ }
+ #contact .row2 .col .box .text p{
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+ }
+ #contact .row2 .col .box .text p a{
+    color: #4c4c4c;
+ }
+/* CONTACT US SECTION CSS END HERE  */
+/* MAP CSS STARTED  */
+#map{
+    border: 1px solid #d5d3d3;
+    padding: 5px;
+}
+ /* MAP CSS END  */
+
+    /* FOOTER CSS STERTED HERE  */
+    #footer{
+        height: 190px;
+        background: #a3c962;
+        margin-top: 5px;
+        padding: 30px 0px 30px 0px;
+    }
+    /* #footer .container .row{
+background: #049dff;
+     /* }   */
+     #footer .container .row p{
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 2px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #footer .container .row p a{
+        color: #000;
+    }
+    #footer .container .icon{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #footer .container .icon i{
+        font-size: 25px;
+        border-radius: 100%;
+        background: #000;
+        padding: 5px;
+        margin: 0px 5px 0px 5px;
+    }
+    #footer .container .png{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    } 
+    /* FOOTER CSS END HERE  */
+
+
+
+    /* CSS FOR FIXED CONTENT STARTED FROM HERE  */
+    #fixed .fixed{
+        width: 90px;
+        height: 350px;
+        background: #0D1326;
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+    } 
+    #fixed .fixed .box{
+        float: right;
+    
+    right: 0px;
+    top: 70px;
+    width: 100%;
+    height: 70px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    
+    }
+    #fixed .fixed .boxdown .box:nth-child(1){
+        border-top:2px solid #41414d;
+        
+    }
+    #fixed .fixed .box h5{
+        color: #9d9fa8;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    #fixed .fixed .box i{
+        font-size:26px ;
+        line-height: 50px;
+        font-weight: bold;
+        text-align: center;
+        color: #545558;
+        transform: translateY(10px);
+    }
+    #fixed .fixed .box a:hover i{
+        color: #fff;
+    }
+    #fixed .fixed .box a:hover h5{
+        color: #fff;
+    }
+   
+    /* CSS FOR FIXED CONTENT END HERE  */
